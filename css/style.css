@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding-top: 70px;
+  margin: 0;
+}
+#nav-header{
+  width: 100%;
+}
+.navbar-default{
+  background-color: #ffffff;
+}
+.header-logo{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.navbar-nav{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color: black;
+}
+.img-responsive{
+  width: 100%;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #26c6da;
+    background-color: transparent;
+}
+.col-content:first-child{
+  border-left: none;
+}
+.col-content:last-child{
+  border-right: none;
+}
+.col-content{
+  display: inline-block;
+  border-right: 1px solid grey;
+}
+.col-content h3~p{
+  font-size: 15px;
+}
+.col-content a{
+  text-decoration: none;
+  color: black;
+}
+.col-content a:hover{
+  color:#26c6da;
+}
+.check-out-two{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.check-out-three{
+  background: url('img/check_three_bg.jpg');
+  background-color: #ddd;
+  padding: 40px 0;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.check-fields input~button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn-success{
+  background-color: #26c6da;
+  border-color: #9cf0ea;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #19abbd;
+    border-color: #9cf0ea;
+}
+.input-group {
+  width: 100%;
+}
+
+.input-group input[type="text"]{
+  width: 48%;
+  margin-right: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact input[type="text"]{
+    width: 80%;
+    margin-bottom: 5px;
+}
+.contact textarea {
+    width: 80%;
+    margin-bottom: 5px;
+}
+.check-out-four{
+  padding-top: 30px;
+  text-align: left;
+}
+.check-out-four h2{
+  font-size: 40px;
+}
+.check-out-four h2~span{
+  font-size: 36px;
+  font-weight: 500;
+  color:#26c6da;
+}
+.check-out-four h2~span~p{
+  font-size: 16px;
+  margin: 20px 0 10px;
+}
+.check-out-four h2~span~p~ul>li{
+  font-size: 15px;
+  font-weight: 600;
+}
+.check-out-four h2~span~p~ul~button{
+  background-color: white;
+  padding: 10px 15px;
+	font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  color: black;
+  border: 2px solid #26c6da;
+  border-style: solid;
+}
+.check-out-four-img{
+  text-align: right;
+}
+.footer{
+  background-color: #263238;
+  text-align: center;
+}
+.footer-header >h3{
+  color: white;
+}
+.footer-header h3~ul{
+  color: white;
+  margin-left: 20px;
+}
+.post-date{
+  display: block;
+  color: #26c6da;
+  padding-bottom: 10px;
+}
